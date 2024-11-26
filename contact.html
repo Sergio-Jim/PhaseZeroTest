@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Ice Cream Shop</title>
+        <link rel="icon" type="image/x-icon" href="./images/images/The Ice-Cream Shop Logo1.png">
+
+        <!-- CSS FILES -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    </head>
+    
+    <body style="background-color: #fffaf6;">
+        <!-- loader -->
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+
+        <main style="margin-bottom: 50px;">
+            <!-- Navbar -->
+            <header class="header">
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link tooltip">
+                                <img src="./images/icons/home-1-svgrepo-com (1).svg" alt="" style="height: 30px; width: 30px">
+                                <span class="tooltiptext">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link tooltip">
+                                <img src="./images/icons/ice-cream-svgrepo-com (1).svg" alt="" style="height: 30px; width: 30px">
+                                <span class="tooltiptext">About Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link tooltip">
+                                <img src="./images/icons/call-dropped-svgrepo-com (1).svg" alt="" style="height: 30px; width: 30px">
+                                <span class="tooltiptext">Contact Us</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </header>
+
+            <section>
+                <!-- opening -->
+                <div class="opening" id="show_bg_2" style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 40px 0px">
+                    <div style="margin-top: 100px">
+                        <div style="display: flex; flex-direction: row; justify-content: center;">
+                            <img src="./images/images/The Ice-Cream Shop Logo1.png" alt="ics-logo" style="height: 100px; width: 100px; margin-bottom: -70px;">
+                        </div>
+        
+                        <div style="display: flex; flex-direction: row; justify-content: center;">
+                            <img src="./images/images/The Ice-Cream Shop Logo2.png" alt="ics-logo2" style="height: 300px; width: 300px">
+                        </div>
+                    </div>
+                    <div>
+                        <h1 style="font-size:120px; margin-left: 20px;">Contact Us</h1>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <!-- Main Info -->
+                <section>
+                    <div style="display: flex; flex-direction: row; width: 100%">
+                        <div style="display: flex; flex-direction: column; width: 45%">
+                            <h1 style="display: flex; flex-direction: row; justify-content: center;">Reach Out</h1>
+                            <form action="">
+                                <div class="row">
+                                  <div class="col-25">
+                                    <label for="fname">First Name</label>
+                                  </div>
+                                  <div class="col-75">
+                                    <input type="text" id="fname" name="firstname" placeholder="First Names">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-25">
+                                    <label for="lname">Last Name</label>
+                                  </div>
+                                  <div class="col-75">
+                                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-25">
+                                    <label for="country">Country</label>
+                                  </div>
+                                  <div class="col-75" style="width: 74%;">
+                                    <select id="country" name="country">
+                                        <option value="angola">Angola</option>
+                                        <option value="namibia">Namibia</option>
+                                        <option value="southafrica">South Africa</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-25">
+                                    <label for="subject">Message</label>
+                                  </div>
+                                  <div class="col-75">
+                                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                  </div>
+                                </div>
+                                <div class="row" >
+                                  <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+    
+                        <div style="display: flex; flex-direction: row; justify-content: center; width: 10%">
+                            <h1>OR</h1>
+                        </div>
+    
+                        <div style="display: flex; flex-direction: column; width: 45%">
+                            <h1 style="display: flex; flex-direction: row; justify-content: center;">Just Call Us Dude</h1>
+                            <div style="display: flex; flex-direction: row; justify-content: center;">
+                                <div style="padding: 20px;">
+                                    <h4 style="margin-bottom: 5px">Cell:</h4>
+                                    <span>08122222222</span>
+                                </div>
+        
+                                <div style="padding: 20px;">
+                                    <h4 style="margin-bottom: 5px">Socials:</h4>
+                                    <span><img src="./images/icons/instagram-167-svgrepo-com.svg" alt="insta-logo" style="height: 15px; width: 15px"> @iceman</span> <br>
+                                    <span><img src="./images/icons/facebook-svgrepo-com.svg" alt="insta-logo" style="height: 15px; width: 15px"> @iceman</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <footer>
+            <div class="site-footer">
+                <p class="copyright-text"><img src="./images/images/The Ice-Cream Shop Logo1.png" alt="" style="height: 7%; width: 7%;"></p>
+                <p class="copyright-text">Copyright © 2024 <strong> @The Ice Cream Shop</strong></p>    
+                <p class="copyright-text">Designed by <a href="https://jimsergiodamiao.netlify.app/" target="_blank">Jimmy Sergio Damiao</a></p>    
+            </div>
+        </footer>
+
+        <!-- JavaScript files -->
+        <script src="js/custom.js"></script>
+
+    </body>
+
+</html>
