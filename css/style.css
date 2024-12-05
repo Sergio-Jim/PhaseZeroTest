@@ -363,30 +363,25 @@ Opening Section
 Main Body CSS
 ---------------------------------- */
 .button {
-  background-color: none;
-  border: 2px solid;
+  background-color: #fffaf6;
+  border: 1px solid;
   border-radius: 7px;
-  padding: 10px 27px;
+  padding: 7px 24px;
   color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 13px;
   font-family: Montserrat;
 }
 
 .button:hover {
+  border: 1px solid;
   background-color: #a70191;
-  color: white;
+  color: black;
   transition: 0.7s;
 }
 
-.button:focus {
-  outline-color: transparent;
-  outline-style:solid;
-  box-shadow: 0 0 0 4px #a70191;
-  transition: 0.7s;
-}
 
 /* Visual background */
 .shapes {

@@ -10,7 +10,7 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
     font-weight: 700;
     letter-spacing: 1.4px;
 }
@@ -24,6 +24,18 @@ textarea {
     flex: 0 1 700px;
     margin: auto;
     padding: 10px;
+}
+
+.contact-intro {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.contact-paragraph {
+    text-align: center;
+    width: 60%;
 }
 
 .screen {
@@ -57,6 +69,7 @@ textarea {
 .screen-body-item.left {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .app-form-group {
@@ -149,7 +162,7 @@ textarea {
 .boxes-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
     max-width: 800px;
     margin: 20px;
 }
@@ -160,6 +173,15 @@ textarea {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
+}
+
+.box h6 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.box a, p, span {
+    font-family: Montserrat;
 }
 
 .custom-link {
@@ -175,6 +197,11 @@ textarea {
     gap: 10px;
 }
 
+.social-icon img {
+    height: 20px;
+    width: 20px;
+}
+
 .social-icon-link {
     text-decoration: none;
     font-size: 24px;
@@ -183,5 +210,52 @@ textarea {
 @media (max-width: 600px) {
     .boxes-container {
         grid-template-columns: 1fr;
+    }
+}
+
+/* registration */
+.registration {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.registration-content h6 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.attention-getter {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .registration-container {
+        padding: 15px;
+    }
+
+    .registration-content h6 {
+        font-size: 20px;
+    }
+
+    .attention-getter {
+        font-size: 14px;
+    }
+
+    .registration-button {
+        font-size: 14px;
+        padding: 8px 16px;
     }
 }
