@@ -1,142 +1,266 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta name="description" content="">
-        <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-        <title>Ice Cream Shop</title>
-        <link rel="icon" type="image/x-icon" href="./images/images/The Ice-Cream Shop Logo1.png">
+    <title>Ice Cream Shop</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/images/The Ice-Cream Shop Logo1.png"
+    />
 
-        <!-- CSS FILES -->
-        <link href="css/style.css" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/slick.css" />
 
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    </head>
-    
-    <body style="background-color: #fffaf6;">
-        <!-- loader -->
-        <section class="preloader">
-            <div class="spinner">
-                <span class="sk-inner-circle"></span>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background-color: #fffaf6">
+    <!-- loader -->
+    <section class="preloader">
+      <div class="spinner">
+        <span class="sk-inner-circle"></span>
+      </div>
+    </section>
+
+    <main>
+      <!-- Navbar -->
+      <header class="header">
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <img
+                  src="./images/icons/home-1-svgrepo-com (1).svg"
+                  alt=""
+                  style="height: 30px; width: 30px"
+                />
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">
+                <img
+                  src="./images/icons/ice-cream-svgrepo-com (1).svg"
+                  alt=""
+                  style="height: 30px; width: 30px"
+                />
+                <span>About Us</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                <img
+                  src="./images/icons/call-dropped-svgrepo-com (1).svg"
+                  alt=""
+                  style="height: 30px; width: 30px"
+                />
+                <span>Contact Us</span>
+              </a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
+
+      <section class="opening" id="show_bg_2">
+        <!-- introduction -->
+        <div class="opening-img">
+          <div class="opening-container">
+            <div class="logo-container">
+              <img
+                class="logo1-home"
+                src="./images/images/The Ice-Cream Shop Logo1.png"
+                alt="ics-logo"
+              />
+              <h1 class="text-banner"><strong>The Ice-Cream Shop</strong></h1>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <main>
-            <!-- Navbar -->
-            <header class="header">
-                <nav class="navbar">
-                    <ul class="nav-menu">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link tooltip">
-                                <img src="./images/icons/home-1-svgrepo-com (1).svg" alt="" style="height: 30px; width: 30px">
-                                <span class="tooltiptext">Home</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link tooltip">
-                                <img src="./images/icons/ice-cream-svgrepo-com (1).svg" alt="" style="height: 30px; width: 30px">
-                                <span class="tooltiptext">About Us</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link tooltip">
-                                <img src="./images/icons/call-dropped-svgrepo-com (1).svg" alt="" style="height: 30px; width: 30px">
-                                <span class="tooltiptext">Contact Us</span>
-                            </a>
-                        </li>
-
-                    </ul>
-                    <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                </nav>
-            </header>
-
-            <section class="opening" id="show_bg_2">   
-                <!-- introduction -->
-                    <div class="opening-img" style="height: 100%;">
-                        <div style="display: flex; flex-direction: column; width: 100%; margin: 100px 0px;">
-                            <div style="display: flex; flex-direction: row; justify-content: center;">
-                                <img src="./images/images/The Ice-Cream Shop Logo1.png" alt="ics-logo" style="height: 100px; width: 100px; margin-bottom: -70px;">
-                            </div>
-        
-                            <div style="display: flex; flex-direction: row; justify-content: center;">
-                                <img src="./images/images/The Ice-Cream Shop Logo2.png" alt="ics-logo2" style="height: 300px; width: 300px">
-                            </div>
-                        </div>
-                    </div>
-            </section>
-
-            <section class="shapes">
-                <!-- Main Info -->
-                <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">
-                    <div style="height: 400px; width: 250px; padding: 20px 20px 0px 20px;">
-                        <img src="./images/images/andris-romanovskis-WaPEDF_JwWE-unsplash.jpg" alt="" style="height: 100%; width: 100%; border: 2px solid; border-radius: 30px">
-                    </div>
-                    <div style="height: 400px; width: 250px; margin: 40px 0px; padding: 20px;">
-                        <img src="./images/images/pablo-merchan-montes-MXovqM130UI-unsplash.jpg" alt="" style="height: 100%; width: 100%; border: 2px solid; border-radius: 30px">
-                    </div>
-                    <div style="height: 400px; width: 250px; padding: 0px 20px;">
-                        <img src="./images/images/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg" alt="" style="height: 100%; width: 100%; border: 2px solid; border-radius: 30px">
-                    </div>
-                </div>
-
-                <div style="display: flex; flex-direction: column;">
-                    <div style="display: flex; flex-direction: row; justify-content: center;">
-                        <img src="./images/images/ComeGetText.png" alt="" style="height: 100%; width: 50%">
-                    </div>
-
-                    <!-- slider main -->
-                    <div style="display: flex; flex-direction: row; justify-content: center; width: 100%; height: 100%">
-                        <div class="slideshow-container">
-                            <div class="mySlides fade">
-                                    <div style="height: 100%; width: 100%;">
-                                        <img src="./images/sliders/pic4.jpg" alt="" style="height: 100%; width: 100%;">
-                                    </div>
-                            </div>
-                                
-                            <div class="mySlides fade">
-                                    <div style="height: 100%; width: 100%;">
-                                        <img src="./images/sliders/pic2.jpg" alt="" style="height: 100%; width: 100%;">
-                                    </div>
-                            </div>
-                                
-                            <div class="mySlides fade">
-                                    <div style="height: 100%; width: 100%;">
-                                        <img src="./images/sliders/pic10.jpg" alt="" style="height: 100%; width: 100%;">
-                                    </div>
-                            </div>
-                                
-                            <br>
-                                
-                            <div style="text-align: center; display: none;">
-                                <span class="dot"></span> 
-                                <span class="dot"></span> 
-                                <span class="dot"></span> 
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div class="site-footer">
-                <p class="copyright-text"><img src="./images/images/The Ice-Cream Shop Logo1.png" alt="" style="height: 7%; width: 7%;"></p>
-                <p class="copyright-text">Copyright © 2024 <strong> @The Ice Cream Shop</strong></p>    
-                <p class="copyright-text">Designed by <a href="https://jimsergiodamiao.netlify.app/" target="_blank">Jimmy Sergio Damiao</a></p>    
+      <section class="main-content">
+        <!-- Main Info -->
+        <div class="cards-container">
+          <div
+            class="slider"
+            reverse="true"
+            style="--width: 250px; --height: 400px; --quantity: 9"
+          >
+            <div class="list">
+              <div class="item" style="--position: 1">
+                <img
+                  class="cards-img"
+                  src="./images/images/american-heritage-chocolate-SRYAhnTHSck-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 2">
+                <img
+                  class="cards-img"
+                  src="images/images/andris-romanovskis-WaPEDF_JwWE-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 3">
+                <img
+                  class="cards-img"
+                  src="images/images/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 4">
+                <img
+                  class="cards-img"
+                  src="images/images/pexels-avichal-lodhi-1054429-2819088.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 5">
+                <img
+                  class="cards-img"
+                  src="images/images/elza-kurbanova-NEab1U1FfKM-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 6">
+                <img
+                  class="cards-img"
+                  src="images/images/mae-mu-X5u6snvBCf0-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 7">
+                <img
+                  class="cards-img"
+                  src="images/images/mark-cruz-Ov0u44CyGdM-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 8">
+                <img
+                  class="cards-img"
+                  src="images/images/pablo-merchan-montes-MXovqM130UI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item" style="--position: 9">
+                <img
+                  class="cards-img"
+                  src="images/images/pexels-alisha-mishra-579430-1346341.jpg"
+                  alt=""
+                />
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
 
-        <!-- JavaScript files -->
-        <script src="js/custom.js"></script>
+        <div class="info-container">
+          <div class="info">
+            <div class="welcome-container">
+              <h2 class="welcome-banner">
+                <strong>Come Get Your Ice-Cream</strong>
+              </h2>
+            </div>
+            <div class="text-container">
+              <p class="welcome-text">
+                <!-- Welcome Lorem Ipsum -->
+                Aliquam rhoncus ac libero eu blandit. Etiam porttitor, libero et
+                bibendum aliquam, nunc nisl interdum justo, in venenatis nunc
+                felis non elit. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Praesent interdum sapien interdum metus
+                porttitor auctor. Duis commodo, ante sit amet faucibus
+                scelerisque, lectus nibh pharetra magna, in hendrerit ipsum eros
+                in leo. Morbi in nisi sapien. Praesent scelerisque erat elit, id
+                blandit libero ultrices sit amet.
+              </p>
+            </div>
+            <div>
+              <a class="button" href="contact.html"> Call Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    </body>
+    <footer>
+      <!-- slider main -->
+      <section class="slick-slideshow">
+        <div class="slick-custom">
+          <img src="./images/sliders/pic4.jpg" class="img-fluid" alt="" />
 
+          <div class="slick-bottom">
+            <div class="container"></div>
+          </div>
+        </div>
+
+        <div class="slick-custom">
+          <img src="./images/sliders/pic12.jpg" class="img-fluid" alt="" />
+
+          <div class="slick-bottom">
+            <div class="container"></div>
+          </div>
+        </div>
+
+        <div class="slick-custom">
+          <img src="./images/sliders/pic6.jpg" class="img-fluid" alt="" />
+
+          <div class="slick-bottom">
+            <div class="container"></div>
+          </div>
+        </div>
+
+        <div class="slick-custom">
+          <img src="./images/sliders/pic11.jpg" class="img-fluid" alt="" />
+
+          <div class="slick-bottom">
+            <div class="container"></div>
+          </div>
+        </div>
+      </section>
+      <!-- actual footer -->
+      <div class="site-footer">
+        <p class="copyright-text">
+          <img
+            src="./images/images/The Ice-Cream Shop Logo1.png"
+            alt=""
+            style="height: 7%; width: 7%"
+          />
+        </p>
+        <p class="copyright-text">
+          Copyright © 2024 &nbsp;<strong>The Ice Cream Shop</strong>
+        </p>
+        <p class="copyright-text">
+          Designed by &nbsp;<a
+            href="https://jimsergiodamiao.netlify.app/"
+            target="_blank"
+            >Jimmy Sergio Damiao</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/customQ.js"></script>
+  </body>
 </html>

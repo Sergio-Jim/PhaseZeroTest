@@ -1,0 +1,42 @@
+<div class="ajax-content">
+            <h2>Our Visiting Hours</h2>
+            <p>We're open from</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Day</th>
+                  <th>Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td><span>09:00 - 17:00</span></td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td><span>09:00 - 17:00</span></td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td><span>09:00 - 17:00</span></td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td><span>09:00 - 17:00</span></td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td><span>08:00 - 18:00</span></td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td><span>08:00 - 13:00</span></td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td><span>09:00 - 12:00</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
